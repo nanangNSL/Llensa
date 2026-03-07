@@ -1,10 +1,26 @@
-# v0 runtime files
-__v0_runtime_loader.js
-__v0_devtools.tsx
-__v0_jsx-dev-runtime.ts
+# Node.js / Frontend
+/frontend/node_modules/
+/frontend/.next/
+/frontend/.env*.local
+/frontend/.DS_Store
+/frontend/.turbo/
+/frontend/dist/
+/frontend/dev/
+/frontend/__v0_runtime_loader.js
+/frontend/__v0_devtools.tsx
+/frontend/__v0_jsx-dev-runtime.ts
 
-# Common ignores
-node_modules/
-.next/
-.env*.local
+# Python / Backend
+/backend/__pycache__/
+/backend/*.py[cod]
+/backend/.venv/
+/backend/venv/
+/backend/env/
+/backend/.env
+/backend/build/
+/backend/dist/
+/backend/*.egg-info/
+
+# OS files
 .DS_Store
+Thumbs.db
